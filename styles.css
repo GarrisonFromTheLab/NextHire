@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282a36; /* Dracula background */
+}
+
+.fixed-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.message {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #f8f8f2; /* Dracula foreground */
+}
+
+.progress-bar {
+    width: 100%;
+    max-width: 400px;
+    background-color: #44475a; /* Dracula selection */
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 25px;
+    width: 0;
+    background-color: #50fa7b; /* Dracula green */
+    border-radius: 25px;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #282a36; /* Dracula background */
+    background-color: #f8f8f2; /* Dracula foreground */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
