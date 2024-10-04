@@ -13,4 +13,14 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     animateProgressBar();
+
+    const button = document.querySelector('.link-button');
+    let redirectTimeout = setTimeout(function() {
+        window.location.href = 'https://garrisonbishop.com';
+    }, 15000); // 15 seconds
+
+    button.addEventListener('click', function() {
+        clearTimeout(redirectTimeout);
+        // Add any additional button click handling here
+    });
 });
